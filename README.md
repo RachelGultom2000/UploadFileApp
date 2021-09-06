@@ -45,6 +45,5 @@ rails server --port:3000
 
 6. Open your browser, navigate to:
 * 'http://127.0.0.1:3000/' for public access
-* 'http://127.0.0.1:3000/resumes' for index
 
 
