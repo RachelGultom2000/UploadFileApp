@@ -42,6 +42,14 @@ rake db:migrate
 ```
 rails server --port:3000
 ```
+OR
+```
+rails s
+```
+OR
+```
+rails server
+```
 
 6. Open your browser, navigate to:
 * 'http://127.0.0.1:3000/' for public access
