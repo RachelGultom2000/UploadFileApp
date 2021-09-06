@@ -1,24 +1,46 @@
-# README
+## Required Installations:
+1. [Ruby](https://www.ruby-lang.org/en/downloads/)
+	
+2. Ruby on Rails Framwork. From terminal/cmd:
+```
+gem install rails
+```
+3. [MYSQL Server](https://dev.mysql.com/downloads/mysql/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Project Configurations:
+1. Clone 'rails-crud' project to 'your destination'
+```
+cd 'your destination'
+git clone https://github.com/RachelGultom2000/UploadFileApp.git
+```
 
-* System dependencies
+2. Install bundle
+```
+cd 'uploadfileapp'
+bundle install
+```
+3. Change username/password in 'uploadfileapp/config/database.yml' to match your mysql database username/password:
+```ruby
+username: 'your username' # your username username
+password: 'your password' # your mysql password
+localhost: 'your localhost' # localhost default : 127.0.0.1
+port: 'your port'# mysql port default : 3306
+```
 
-* Configuration
+4. Run migrations for the project to build its tables on uploadfileapp_db_dev database:
+```
+rails db:migrate
+```
 
-* Database creation
+5. Run Server:
+```
+rails server --port:3000
+```
 
-* Database initialization
+6. Open your browser, navigate to:
+* 'http://127.0.0.1:3000/' for public access
+* 'http://127.0.0.1:3000/resumes' for index
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
