@@ -33,6 +33,10 @@ port: 'your port'# mysql port default : 3306
 ```
 rails db:migrate
 ```
+OR 
+```
+rake db:migrate  
+```
 
 5. Run Server:
 ```
