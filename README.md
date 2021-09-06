@@ -10,7 +10,7 @@ gem install rails
 
 
 ## Project Configurations:
-1. Clone 'rails-crud' project to 'your destination'
+1. Clone 'uploadfileapp' project to 'your destination'
 ```
 cd 'your destination'
 git clone https://github.com/RachelGultom2000/UploadFileApp.git
@@ -25,8 +25,8 @@ bundle install
 ```ruby
 username: 'your username' # your username username
 password: 'your password' # your mysql password
-localhost: 'your localhost' # localhost default : 127.0.0.1
-port: 'your port'# mysql port default : 3306
+localhost: 'your localhost' # your mysql localhost || default : 127.0.0.1
+port: 'your port'# your mysql port || default : 3306
 ```
 
 4. Run migrations for the project to build its tables on uploadfileapp_db_dev database:
